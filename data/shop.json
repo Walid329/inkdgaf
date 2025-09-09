@@ -1,0 +1,4 @@
+[
+  { "name": "Artist T-Shirt", "price": "$25", "image": "/shirt.png" },
+  { "name": "Vinyl Record", "price": "$40", "image": "/vinyl.png" }
+]
