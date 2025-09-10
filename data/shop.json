@@ -1,4 +1,4 @@
 [
-  { "name": "Artist T-Shirt", "price": "$25", "image": "/shirt.png" },
-  { "name": "Vinyl Record", "price": "$40", "image": "/vinyl.png" }
+  { "item": "coming soon", "price": "$0", "image": "/shirt.png" },
+  { "item": "coming soon", "price": "$0", "image": "/vinyl.png" }
 ]

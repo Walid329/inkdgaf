@@ -1,18 +1,13 @@
-import '../styles/globals.css'
+"use client"
 
 export default function Card({ title, subtitle, image, link }) {
   return (
-    <div className="card">
-      {image && (
-        <img src={image} alt={title} />
-      )}
-      <h3>{title}</h3>
-      {subtitle && <p>{subtitle}</p>}
-      {link && (
-        <a href={link} target="_blank" rel="noreferrer">
-          Listen
-        </a>
-      )}
-    </div>
+    <a href={link || "#"} target="_blank" rel="noopener noreferrer">
+      <div className="card">
+        {image && <img src={image} alt={title} className="card-image" />}
+        <h2>{title}</h2>
+        {subtitle && <p>{subtitle}</p>}
+      </div>
+    </a>
   )
 }

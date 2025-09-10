@@ -1,10 +1,10 @@
-import tour from '../data/tour.json'
-import Card from '../components/Card'
+import tour from '../../data/tour.json'
+import Card from '../../components/Card'
 
 export default function Tour() {
   return (
     <div>
-      <h1>Tour Dates</h1>
+      <h1>dates</h1>
       <div style={{
         display: 'grid',
         gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
@@ -13,7 +13,7 @@ export default function Tour() {
         {tour.map((show, i) => (
           <Card
             key={i}
-            title={show.city}
+            title={show.location}
             subtitle={`${show.date} @ ${show.venue}`}
           />
         ))}

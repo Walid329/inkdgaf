@@ -1,17 +1,12 @@
-import './globals.css'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-
-export const metadata = {
-  title: 'Artist Website',
-  description: 'Official artist site built with Next.js',
-}
+import Footer from "../components/Footer"
+import AnimatedNavbar from "../components/AnimatedNavbar"
+import "./globals.css"
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Navbar />
+        <AnimatedNavbar />
         <main>{children}</main>
         <Footer />
       </body>
