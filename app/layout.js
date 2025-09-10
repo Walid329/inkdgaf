@@ -7,7 +7,7 @@ export const metadata = {
   title: "inkdgaf",
   description: "music, tour dates, and shop from inkdgaf",
   icons: {
-    icon: "/inkgaf.png", 
+    icon: "/favicon.ico", 
   },
   openGraph: {
     title: "inkdgaf",

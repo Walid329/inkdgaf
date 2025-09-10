@@ -1,12 +1,15 @@
-import Navbar from './Navbar'
-import Footer from './Footer'
+import AnimatedNavbar from "../components/AnimatedNavbar"
+import Footer from "../components/Footer"
+import "./globals.css"
 
-export default function Layout({ children }) {
+export default function RootLayout({ children }) {
   return (
-    <>
-      <Navbar />
-      <main>{children}</main>
-      <Footer />
-    </>
+    <html lang="en">
+      <body>
+        <AnimatedNavbar />
+        <main>{children}</main>
+        <Footer />
+      </body>
+    </html>
   )
 }
